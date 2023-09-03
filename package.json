@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "private": true,
+  "name": "example-webpack",
+  "description": "this is an example",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --mode=production"
+  }
+}
