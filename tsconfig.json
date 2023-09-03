@@ -4,7 +4,7 @@
 
     "lib": ["esnext", "dom"],
     "jsx": "preserve",
-    "types": [],
+    "types": ["node"],
     "module": "nodenext",
     "target": "esnext",
 
