@@ -5,7 +5,8 @@
   "description": "this is an example",
   "version": "0.1.0",
   "scripts": {
-    "build": "./node_modules/.bin/webpack --mode=production",
+    "build:webpack": "./node_modules/.bin/webpack --mode=production",
+    "build:vite": "./node_modules/.bin/vite build",
     "lint:type": "./node_modules/.bin/tsc --noEmit",
     "compare-sizes": "./node_modules/.bin/tsx src/scripts/compare-sizes.ts"
   },
@@ -15,9 +16,11 @@
     "@types/node": "20.5.9",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
+    "@vitejs/plugin-react": "4.0.4",
     "babel-loader": "9.1.3",
     "tsx": "3.12.8",
     "typescript": "5.2.2",
+    "vite": "4.4.9",
     "webpack": "5.88.2",
     "webpack-cli": "5.1.4"
   },
