@@ -5,6 +5,21 @@
   "description": "this is an example",
   "version": "0.1.0",
   "scripts": {
-    "build": "./node_modules/.bin/webpack --mode=production"
+    "build": "./node_modules/.bin/webpack --mode=production",
+    "lint:type": "./node_modules/.bin/tsc --noEmit"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "7.22.5",
+    "@babel/preset-typescript": "7.22.11",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "babel-loader": "9.1.3",
+    "typescript": "5.2.2",
+    "webpack": "5.88.2",
+    "webpack-cli": "5.1.4"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
